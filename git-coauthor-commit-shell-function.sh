@@ -7,7 +7,7 @@
 #   - eg: `source PATH/TO/git-coauthor-commit-shell-function.sh`
 # 2. Usage: `$ cgap {COMMIT_MESSAGE}`
 
-function git_add_commit_push_catstones {
+function git_add_commit_push_sea-jacks {
   git add -A
 git commit -m "$1
 Co-authored-by: Jocie Moore <hello@jociemoore.com>
