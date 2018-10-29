@@ -10,9 +10,10 @@
 function git_add_commit_push_sea-jacks {
   git add -A
 git commit -m "$1
+
+
 Co-authored-by: Jocie Moore <hello@jociemoore.com>
-Co-authored-by: Tak Sampson <tak.sampson@gmail.com>
-Co-authored-by: Jason Overby <disguisekit@gmail.com>"
+Co-authored-by: Tak Sampson <tak.sampson@gmail.com>"
   git push
 }
 alias cgap='git_add_commit_push_sea-jacks'
