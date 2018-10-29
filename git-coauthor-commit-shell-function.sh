@@ -17,4 +17,16 @@ Co-authored-by: Jocie Moore <hello@jociemoore.com>
 Co-authored-by: Tak Sampson <tak.sampson@gmail.com>"
   git push
 }
-alias cgap='git_add_commit_push_sea-jacks'
+alias sjacp='git_add_commit_push_sea-jacks'
+
+
+function git_add_commit_sea-jacks {
+  git add -A
+git commit -m "$1
+
+
+Co-authored-by: Jason Overby <disguisekit@gmail.com>
+Co-authored-by: Jocie Moore <hello@jociemoore.com>
+Co-authored-by: Tak Sampson <tak.sampson@gmail.com>"
+}
+alias sjac='git_add_commit_sea-jacks'
